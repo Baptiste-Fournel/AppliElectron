@@ -4,8 +4,11 @@
   "description": "Ma première Appli Electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "electron .",
+  "ng": "ng",
+  "ng-build": "ng build --output-path=../dist/angular-app",
+  "start-electron": "npm run ng-build && npm start"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Baptiste-Fournel/AppliElectron.git"
