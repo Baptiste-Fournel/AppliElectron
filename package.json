@@ -1,0 +1,22 @@
+{
+  "name": "appli-electron",
+  "version": "1.0.0",
+  "description": "Ma première Appli Electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baptiste-Fournel/AppliElectron.git"
+  },
+  "author": "Baptiste Fournel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Baptiste-Fournel/AppliElectron/issues"
+  },
+  "homepage": "https://github.com/Baptiste-Fournel/AppliElectron#readme",
+  "devDependencies": {
+    "electron": "^33.0.2"
+  }
+}
